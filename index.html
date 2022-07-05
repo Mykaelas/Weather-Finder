@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+    <!-- Link to CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+</head>
+
+<body>
+    <!-- Header at the top of the page-->
+    <header id="header"> 
+        <div class="container">
+            <h1 class="weather"> Weather<span id="ly">ly</span></h1>
+        </div>
+    </header> 
+
+    <!--Creation of the Search Button-->
+    <section id="searchFunction">
+        <article id="searchBackground"> 
+            <h2 class="citySearch">Search for a city:</h2>
+            <!-- Search bar -->
+            <form class="searchBar" action="action_page.php">
+                <input  class="fillBar" type="text" placeholder="Houston" name="search">
+                <button type="submit" class="submitBtn">Submit
+                </button>
+            </form>
+        </article>
+        <div id="centerBox">
+            <h2 class="currentDayCity">Houston(7/5/2022)</h2>
+            <h3 class="currentDayTemp">Temp: 70.0 F</h3>
+            <h3 class="currentDayWind">Wind: 6.67MPH</h3>
+            <h3 class="currentDayHumidty">Humidity: 46%</h3>
+            <h3 class="currentDayUV">UV: 0.47</h3>
+        </div>
+    </section>
+    <section id="lowerForecast">
+        <p class="fiveDay">5-Day Forecast:</p>
+        <div id="forecastBoxes">
+            <div class="dayOne">
+                <h5 class="dayOneTemp">Temp: 73.72 </h5>
+                <h5 class="dayOneWind">Wind: 9.53 MPH </h5>
+                <h5 class="dayOneHumidty">Humidty: 66% </h5>
+            </div>
+            <div class="dayTwo">
+                <h5 class="dayTwoTemp">Temp: 73.72 </h5>
+                <h5 class="dayTwoWind">Wind: 9.53 MPH </h5>
+                <h5 class="dayTwoHumidty">Humidty: 66% </h5>
+            </div>
+            <div class="dayThree">
+                <h5 class="dayThreeTemp">Temp: 73.72 </h5>
+                <h5 class="dayThreeWind">Wind: 9.53 MPH </h5>
+                <h5 class="dayThreeHumidty">Humidty: 66% </h5>
+            </div>
+            <div class="dayFour">
+                <h5 class="dayFourTemp">Temp: 73.72 </h5>
+                <h5 class="dayFourWind">Wind: 9.53 MPH </h5>
+                <h5 class="dayFourHumidty">Humidty: 66% </h5>
+            </div>
+            <div class="dayFive">
+                <h5 class="dayFiveTemp">Temp: 73.72 </h5>
+                <h5 class="dayFiveWind">Wind: 9.53 MPH </h5>
+                <h5 class="dayFiveHumidty">Humidty: 66% </h5>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Link to the JS-->
+    <script src="./assets/JavaScript/weather.js"></script>
+</body>
+</html>
