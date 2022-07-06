@@ -22,20 +22,20 @@
         <article id="searchBackground"> 
             <h2 class="citySearch">Search for a city:</h2>
             <!-- Search bar -->
-            <form class="searchBar" action="action_page.php">
-                <input  class="fillBar" type="text" placeholder="Houston" name="search">
-                <button type="submit" class="submitBtn">Submit
-                </button>
+            <form class="searchBar">
+                <input  id="fillBar" type="text" placeholder="Enter Text Here" name="search">
+                <button type="submit" id="submit" class="submitBtn">Submit</button>
             </form>
         </article>
         <div id="centerBox">
-            <h2 class="currentDayCity">Houston(7/5/2022)</h2>
-            <h3 class="currentDayTemp">Temp: 70.0 F</h3>
-            <h3 class="currentDayWind">Wind: 6.67MPH</h3>
-            <h3 class="currentDayHumidty">Humidity: 46%</h3>
-            <h3 class="currentDayUV">UV: 0.47</h3>
+            <h2 id="currentDayCity">Houston(7/5/2022)</h2>
+            <h3 id="currentDayTemp">Temp: 70.0 F</h3>
+            <h3 id="currentDayWind">Wind: 6.67MPH</h3>
+            <h3 id="currentDayHumidty">Humidity: 46%</h3>
+            <h3 id="currentDayUV">UV: 0.47</h3>
         </div>
     </section>
+    <!-- The Five Day Weather Forecast Functions-->
     <section id="lowerForecast">
         <p class="fiveDay">5-Day Forecast:</p>
         <div id="forecastBoxes">

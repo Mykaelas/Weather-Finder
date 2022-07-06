@@ -21,10 +21,10 @@
 
 
 #searchFunction{
-    margin-top: 60px;
+    margin-top: 35px;
     display:flex;
     flex-direction: row;
-    padding: 0 0 300px 50px;
+    padding: 0 0 25px 35px;
 }
 
 #searchBackground {
@@ -46,11 +46,11 @@
     border-bottom: 10px solid #9649B6;
 }
 
-.fillBar {
+#fillBar {
     width: 350px;
     height: 50px;
 }
-.fillBar:hover {
+#fillBar:hover {
     background-color: beige;
 }
 
@@ -78,8 +78,17 @@
 #forecastBoxes{
     display: flex;
     flex-direction: row; 
-    margin: 0 900px;
+    justify-content: space-evenly;
+}
 
+.fiveDay {
+    background-color: #af8ebd;
+    color:white;
+    width: 400px;
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin: 50px;
 }
 
 .dayOne, .dayTwo, .dayThree, .dayFour, .dayFive {
@@ -87,5 +96,6 @@
     text-align: center;
     height: 100px;
     width: 200px;
+    font-size: 25px;
     
 }
