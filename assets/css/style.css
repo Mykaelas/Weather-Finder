@@ -68,11 +68,16 @@
 }
 
 #centerBox {
-    font-size: 24px;
+    font-size: 35px;
     border-style: solid;
+    border-color: #9649B6;
+    border-width: 10px;
     height: 250px;
     width: 600px;
     margin: 0 200px;
+    text-align: center;
+    background-color: #d4b5e1;
+    color:white;
 }
 
 #forecastBoxes{
@@ -89,13 +94,17 @@
     margin-bottom: 25px;
     text-align: center;
     margin: 50px;
+
 }
 
 .dayOne, .dayTwo, .dayThree, .dayFour, .dayFive {
     background-color: #d4b5e1;
     text-align: center;
-    height: 100px;
-    width: 200px;
-    font-size: 25px;
-    
+    height: 200px;
+    width: 300px;
+    font-size: 35px;
+    border-style: solid;
+    border-color: #9649B6;
+    border-width: 6px;
+    color: white;
 }
